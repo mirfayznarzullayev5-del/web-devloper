@@ -1,0 +1,13 @@
+WEBmood — to'liq PHP loyiha
+
+1) cd C:\webmood-php
+2) .env ni tekshiring (TELEGRAM_BOT_TOKEN, TELEGRAM_ADMIN_CHAT_ID, SITE_URL)
+3) php -S localhost:8000
+4) Yangi terminal: php poll.php
+5) Brauzer: http://localhost:8000
+
+Kirish (Sozdatel + Admin bir xil):
+  mirfayznarzullayev5@gmail.com
+  mirfayzlar0
+
+Ma'lumotlar: storage/ papkasida (JSON)

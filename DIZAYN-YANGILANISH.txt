@@ -1,0 +1,36 @@
+WEBmood — yangi dizayn
+======================
+
+G'oya: Samarqand kulolchilik plitkasi (lapis ko'k + firuza + safron), peshtoq (arka)
+shakli va sakkiz qirrali yulduz naqshi. Och fon, toza tipografiya, bitta yorqin element —
+plitkali kub va arka.
+
+O'zgargan fayllar (faqat dizayn):
+  assets/css/style.css     — butunlay yangi dizayn tizimi
+  assets/css/fonts.css     — mahalliy shriftlar (Geologica, Onest, IBM Plex Mono)
+  assets/fonts/            — shrift fayllari (Google Fonts kerak emas)
+  assets/js/app.js         — eski neon mavzu, kursor, orbitalar olib tashlandi
+  assets/js/notify-bell.js — qo'ng'iroqcha ranglari
+  assets/js/tetris.js      — tetris ranglari
+  assets/img/favicon.svg   — yangi favicon
+  index.php, cabinet.php, admin.php, login.php, signup.php, profile.php, wait-bot.php
+                           — faqat HTML/CSS tuzilmasi (PHP mantiqi o'zgarmagan)
+
+Qo'shimcha tuzatishlar:
+  send.php   — 21-qatordagi sintaksis xatosi (apostrof) tuzatildi; fayl avval umuman ishlamasdi.
+  app.js     — loyiha kartasini bosganda noto'g'ri oyna ochilardi, to'g'rilandi.
+  Kirish oynasidagi email forma endi "Email" tugmasi bosilgunga qadar yashirin turadi.
+
+Kunduzgi / kechgi rejim:
+  Sarlavhadagi quyosh/oy tugmasi bilan almashtiriladi. Tanlov brauzerda saqlanadi;
+  birinchi kirishda qurilma sozlamasiga (prefers-color-scheme) qaraydi.
+  assets/js/theme.js  — rejim mantig'i (barcha sahifalarda ulangan)
+  assets/css/style.css — :root[data-theme="dark"] bo'limi
+
+Yangi kursor:
+  Oddiy holatda — kobalt strelka; tugma/havola/kartalar ustida — safron sakkiz qirrali yulduz.
+  Orqasidan sekin aylanib ergashadigan plitka yulduzi bor: havola ustida kattalashadi,
+  bosganda kichrayadi, matn kiritish maydonida yashirinadi.
+  Sensorli ekranlarda va "harakatni kamaytirish" yoqilgan bo'lsa ergashuvchi yulduz o'chiq.
+  assets/js/cursor.js — ergashuvchi yulduz; kursor shakllari style.css oxirida.
+  O'chirish uchun: sahifalardagi cursor.js qatorini olib tashlang.

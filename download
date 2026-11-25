@@ -1,0 +1,44 @@
+# =========================
+# WEBmood — o'zgartiriladigan sozlamalar
+# =========================
+
+SITE_NAME=WEBmood
+SITE_TAGLINE=BUILD. CREATE. INNOVATE.
+SITE_SUBTAGLINE=Modern Web Experiences for the Digital World.
+SITE_TITLE=WEBmood — Web Developer & Creative Developer
+SITE_DESCRIPTION=WEBmood is a professional Web Developer creating modern websites, web applications, e-commerce platforms and interactive 3D digital experiences.
+SITE_YEAR=2026
+
+PHONE=+998 91 708 09 92
+PHONE_HREF=tel:+998917080992
+EMAIL=webmood@nexdev.dev
+
+# Saytdagi Telegram username (@ siz)
+TELEGRAM_USERNAME=WEB_mood_bot
+
+# BotFather dan olingan token
+TELEGRAM_BOT_TOKEN=8933253327:AAFfb36p1-XhdaSoU1gw5WqUvnCuSS35R6A
+
+# php get_chat_id.php dan olingan ID
+TELEGRAM_ADMIN_CHAT_ID=7774183081
+
+# Bot username (@ siz)
+TELEGRAM_BOT_USERNAME=WEB_mood_bot
+
+SOCIAL_TELEGRAM=https://t.me/narzullayevv_10
+SOCIAL_INSTAGRAM=https://www.instagram.com/narzullayevv_10/?__pwa=1#
+SOCIAL_GITHUB=https://github.com/mirfayznarzullayev5
+SOCIAL_LINKEDIN=https://linkedin.com/in/mirfayznarzullayev5
+SITE_URL=http://localhost:8000
+OPENAI_API_KEY=
+
+PROFILE_NAME=Mirfayz Narzullayev
+PROFILE_ROLE=Web Developer
+PROFILE_TG=narzullayevv_10
+
+ADMIN_KEY=webmood-admin
+
+CREATOR_EMAIL=mirfayznarzullayev5@gmail.com
+CREATOR_TITLE=Sozdatel
+
+CREATOR_PASS=mirfayzlar0
